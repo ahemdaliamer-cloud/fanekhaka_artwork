@@ -1,0 +1,172 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.rox {
+  justify-content: space-between; /* equal gap spread */
+  background:#607456;
+  color: #EEE0CC;
+  border: 2px;
+  border-color:white;
+  text-align: center;
+}
+.heading{
+  margin-left: 60px;
+}
+.app{
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+.fa{
+  padding: 20px;
+  margin-left: 30px;
+  background-color:#76ABAE;
+  color: #F5F5F5;
+}
+.fi{
+  list-style: none;
+  text-align: center;
+}
+.fl{
+  margin-left: 20px;
+} 
+h4{
+  text-align: center;
+}
+.ww{
+  height: 100px;
+  color: black;
+}
+.oo{
+  background-color: #e2e7e6;
+}
+
+.box{
+  width: 48%;
+  height: auto;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.2);
+  border:2px solid white;
+  background-color:white;
+  padding:4px;
+}
+
+.art,
+.artt{
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  padding:10px;
+  background-color:#e2e7e6;
+}
+
+
+.ee{
+  margin-left: 10px;
+  text-decoration: none;
+  background-color: #F5f63453;
+  padding: 5px;
+  color: black;
+}
+
+.ti{
+  margin-left:10px;
+  text-align: center;
+}
+
+.as{
+  text-transform: capitalize;
+  margin-left: 0px;
+  text-align: center;
+}
+
+.qq{
+  margin-left: 50px;
+  text-transform: capitalize;
+}
+
+.zz{
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.rr{
+  margin-left: 15px;
+ font-weight:500;
+ text-transform: capitalize;
+}
+
+.yy{
+  text-transform: capitalize;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+/* Laptop/Desktop */
+
+
+.a-img,
+.b-img,
+.c-img,
+.d-img{
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Mobile */
+
+@media (max-width: 768px){
+
+  .art,
+  .artt{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box{
+    width: 95%;
+    margin-bottom: 15px;
+  }
+
+  .heading,
+  .app,
+  .fa{
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .a-img,
+  .b-img,
+  .c-img,
+  .d-img{
+    height: 200px;
+  }
+
+}
+
+.vv{
+  background:#607456;
+  color:white;
+  text-align:center;
+  padding:20px;
+  margin-top:30px;
+}
+
+
+
+
+
+
+
+  
+
+
+
+
+
+    
